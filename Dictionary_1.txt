@@ -1,0 +1,34 @@
+1. Find the frequency of letters the string using dictionary
+string = "kaveetha"
+freq = {}
+for char in string:
+    if char in freq:
+        freq[char] += 1
+    else:
+        freq[char] = 1
+print(freq)
+OUTPUT:   {'k': 1, 'a': 2, 'v': 1, 'e': 2, 't': 1, 'h': 1}
+
+2. Create a dictionary of 4 categories and print seperately using functions
+data = {
+    "Grocery": [
+        {"name":"Rice", "quantity":5, "price":80},
+        {"name":"Fruits", "quantity":10, "price":100},
+        {"name":"vegetables", "quantity":7, "price":70}
+    ],
+    "Books": [
+        {"name":"Python", "quantity":5, "price":260},
+        {"name":"Java", "quantity":3, "price":350},
+        {"name":"SQL", "quantity":27, "price":200}
+    ],
+    "Electronics": [
+        {"name":"Fridge", "quantity":2, "price":22660},
+        {"name":"T.V.", "quantity":3, "price":15000},
+        {"name":"Mobile", "quantity":8, "price":20000}
+    ],
+    "Stationary": [
+        {"name":"Pen", "quantity":7, "price":10},
+        {"name":"notebook", "quantity":16, "price":50},
+        {"name":"eraser", "quantity":3, "price":20}
+    ]
+}
